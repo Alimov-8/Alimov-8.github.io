@@ -9,12 +9,19 @@ h1, h2 {
 	color: #fae596;
 }
 
+p::first-letter {
+	font-weight: bold;
+    font-family: "IBM Plex Mono";
+    font-size: 150%;
+}
+
 strong {
 	color: #fae596;
 }
 
 a {
 	color: #3fb0ac;
+	text-decoration: none;
 }
 
 a:visited {
@@ -23,4 +30,5 @@ a:visited {
 
 a:hover {
 	color: #fae596;
+	text-decoration: underline;
 }
